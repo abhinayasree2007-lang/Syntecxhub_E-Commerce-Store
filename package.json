@@ -1,0 +1,25 @@
+{
+  "name": "syntecxhub-ecommerce-store",
+  "version": "1.0.0",
+  "description": "Syntecxhub E-Commerce Store - Full Stack Web Application (React + Node.js + Express + MongoDB)",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "seed": "npm --prefix backend run seed",
+    "backend": "npm --prefix backend start",
+    "backend:dev": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "ecommerce",
+    "react",
+    "node",
+    "express",
+    "mongodb",
+    "jwt",
+    "rest-api"
+  ],
+  "author": "Syntecxhub",
+  "license": "ISC"
+}
